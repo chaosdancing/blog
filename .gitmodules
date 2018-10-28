@@ -1,0 +1,6 @@
+[submodule "themes/hyde"]
+	path = themes/hyde
+	url = https://github.com/spf13/hyde.git
+[submodule "themes/hello-programmer"]
+	path = themes/hello-programmer
+	url = https://github.com/lubang/hugo-hello-programmer-theme

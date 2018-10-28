@@ -1,0 +1,18 @@
+baseURL = "http://chaosdancing.github.io/"
+languageCode = "zh_CN.UTF-8"
+title = "My New Hugo Site"
+
+#theme = "hugo-hello-programmer-theme"
+theme = "hyde"
+
+[params]
+#themeColor = "theme-base-0d"
+  layoutReverse = true
+paginate = 2
+
+disqusShortname = "XXXX"
+googleAnalytics = "UA-XXXXXXXX-X"
+
+[author]
+    name = "smokey"
+    email = "whoisyoursuperman@gmail.com"
