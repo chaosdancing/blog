@@ -4,7 +4,8 @@ python:
 
 install:
     # install latest release version
-    - sudo apt-get install hugo
+    - wget -qO- https://api.github.com/repos/gohugoio/hugo/releases/latest |grep -E 'browser_download_url.*hugo_[0-9.]*_Linux-64bit.deb' | xargs wget
+    - sudo dpkg -i hugo*.deb
     - pip install Pygments
     - rm -rf public 2> /dev/null
 
