@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Chaos Dancing With Angel</title>
+    <link>https://chaosdancing.github.io/tags/</link>
+    <description>Recent content in Tags on Chaos Dancing With Angel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2018</copyright>
+    <lastBuildDate>Sun, 28 Oct 2018 14:34:47 +0800</lastBuildDate>
+    
+	<atom:link href="https://chaosdancing.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MAC</title>
+      <link>https://chaosdancing.github.io/tags/mac/</link>
+      <pubDate>Sun, 28 Oct 2018 14:34:47 +0800</pubDate>
+      
+      <guid>https://chaosdancing.github.io/tags/mac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>常用软件</title>
+      <link>https://chaosdancing.github.io/tags/%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/</link>
+      <pubDate>Sun, 28 Oct 2018 14:34:47 +0800</pubDate>
+      
+      <guid>https://chaosdancing.github.io/tags/%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>技巧分享</title>
+      <link>https://chaosdancing.github.io/tags/%E6%8A%80%E5%B7%A7%E5%88%86%E4%BA%AB/</link>
+      <pubDate>Sun, 28 Oct 2018 14:34:47 +0800</pubDate>
+      
+      <guid>https://chaosdancing.github.io/tags/%E6%8A%80%E5%B7%A7%E5%88%86%E4%BA%AB/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

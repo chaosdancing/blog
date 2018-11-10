@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tools on Chaos Dancing With Angel</title>
+    <link>https://chaosdancing.github.io/categories/tools/</link>
+    <description>Recent content in tools on Chaos Dancing With Angel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>All rights reserved - 2018</copyright>
+    <lastBuildDate>Sun, 28 Oct 2018 14:34:47 +0800</lastBuildDate>
+    
+	<atom:link href="https://chaosdancing.github.io/categories/tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MAC常用软件安装</title>
+      <link>https://chaosdancing.github.io/post/2018/software-with-mac/</link>
+      <pubDate>Sun, 28 Oct 2018 14:34:47 +0800</pubDate>
+      
+      <guid>https://chaosdancing.github.io/post/2018/software-with-mac/</guid>
+      <description>本文记录我的Mac常用开发环境维护 起因 前几天电脑突然抽风，开机卡死，完全没有反应。试过各种方法，常规的清除 NVRAM 和 PRAM ，然后恢复之前的Time Ma</description>
+    </item>
+    
+  </channel>
+</rss>

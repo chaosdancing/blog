@@ -4,3 +4,15 @@
 [submodule "themes/hello-programmer"]
 	path = themes/hello-programmer
 	url = https://github.com/lubang/hugo-hello-programmer-theme
+[submodule "public"]
+	path = public
+	url = git@github.com:chaosdancing/chaosdancing.github.io.git
+[submodule "themes/casper"]
+	path = themes/casper
+	url = https://github.com/vjeantet/hugo-theme-casper
+[submodule "themes/even"]
+	path = themes/even
+	url = https://github.com/olOwOlo/hugo-theme-even
+[submodule "themes/beautifulhugo"]
+	path = themes/beautifulhugo
+	url = https://github.com/halogenica/beautifulhugo.git
