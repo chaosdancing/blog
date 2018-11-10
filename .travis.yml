@@ -3,14 +3,12 @@ python:
     - "3.6"
 
 install:
-    # install latest release version
-    - wget -qO- https://api.github.com/repos/gohugoio/hugo/releases/latest |grep -E 'browser_download_url.*hugo_[0-9.]*_Linux-64bit.deb' | xargs wget
-    - sudo dpkg -i hugo*.deb
     - pip install Pygments
-    - rm -rf public 2> /dev/null
+    - rm -rf public || exit 0
 
 script:
-    - /usr/local/bin/hugo
+    - chmod 600 bin/hugo
+    - bin/hugo -t even
  
 deploy:
     provider: pages
