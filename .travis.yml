@@ -7,7 +7,7 @@ install:
     - rm -rf public || exit 0
 
 script:
-    - chmod 600 bin/hugo
+    - chmod 700 bin/hugo
     - bin/hugo -t even
  
 deploy:
