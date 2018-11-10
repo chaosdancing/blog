@@ -1,18 +1,27 @@
-sudo: false
-language: go
-git:
-    depth: 1
-install: go get -v github.com/gohugoio/hugo
+language: python
+python:
+    - "3.6"
+
+install:
+    # install latest release version
+    - wget -qO- https://api.github.com/repos/gohugoio/hugo/releases/latest | sed -r -n '/browser_download_url/{/Linux-64bit.deb/{s@[^:]*:[[:space:]]*"([^"]*)".*@\1@g;p}}' | xargs wget
+    - sudo dpkg -i hugo*.deb
+    - pip install Pygments
+    - rm -rf public 2> /dev/null
+
 script:
-    ‐ hugo
+    - hugo
+ 
 deploy:
     provider: pages
     skip_cleanup: true
-    github_token: 301950233d59137e2a2ee3614b6d31823d9a4eeb
+    github_token: $GITHUB_TOKEN
+    email: $GITHUB_EMAIL
+    name: $GITHUB_USERNAME
     on:
         branch: master
     local_dir: public
     repo: chaosdancing/chaosdancing.github.io
     target_branch: master
-    email: whoisyoursuperman@gmail.com
-    name: chaosdancing
+
+    
