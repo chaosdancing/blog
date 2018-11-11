@@ -11,16 +11,16 @@ draft: false
 
 > 上篇我们说了命令行的一些软件，这里我们重点说一下一些桌面应用的必备软件
 
-## 开发工具
+## 1、开发工具
 
-### 1、JetBrain 工具包
+### 1.1、JetBrain 工具包
 作为一个研发狗，开发工具肯定是不能少的，我觉得无论那种语言的，JetBrain的工具必不可少，我常用的是[IntelliJ IDEA](https://www.jetbrains.com/idea/)和[DataGrip](https://www.jetbrains.com/datagrip/)。选择上应该有三
 
 - 不缺钱的最好支持下，JetBrain在中国也有代理，支持多重付款方式，个人用户149刀一年，还是比较贵的
 - 如果舍不得花钱的话，其也很贴心的提供了社区版，功能也基本够用（只是少了一些自带的重复代码检测啊/脚本支持啊/一些框架的支持等等）
 - 又没钱又想用全部功能，只能下下策找下破解服务器或自己搭建一个，究竟这样好不好也不予置评了😂
 
-### 2、编辑工具
+### 1.2、编辑工具
 从Sublime Text到Atom，再到VS Code，亦或是vim，每个人都有自己的偏好和选择，这里简单说一下我的理解和选择。
 #### Sublime Text
 ![sublime](https://ws3.sinaimg.cn/large/006tNbRwgy1fx3y8jk39sj30740740te.jpg)
@@ -35,7 +35,7 @@ draft: false
 >A sophisticated text editor for code, markup and prose
 
 Sublime Text从07年开始到现在，已经是一个十分成熟的软件了，当年记得免费特性洗了很多TextMate的用户，自己本身也十分优秀，常年霸占编辑器排行榜前几位。`⌘ + P` 安装必备软件包也成了安装软件后端第一个操作，在Sublime Text3已经将很多软件预装了。
-不过从其最初自我介绍的`The text editor you'll fall in love with`到现在的`A sophisticated text editor for code, markup and prose`，看出他的也行，也看出它是个老而弥坚的编辑器了~
+不过从其最初自我介绍的`The text editor you'll fall in love with`到现在的`A sophisticated text editor for code, markup and prose`，也看的出他的与时俱进，也是个老而弥坚的编辑器了~
 
 #### Atom
 
@@ -87,7 +87,7 @@ curl -sLf https://spacevim.org/install.sh | bash
 
 ![spacevim](https://ws4.sinaimg.cn/large/006tNbRwgy1fx3z4ohtuuj311y0lctcd.jpg)
 
-## 3、效率工具
+## 2、效率工具
 
 ### Snap
 ![snap-icon](https://ws2.sinaimg.cn/large/006tNbRwgy1fx47j3k51fj3078075t8u.jpg)
@@ -161,7 +161,7 @@ curl -sLf https://spacevim.org/install.sh | bash
 曾经的重度依赖，因为 WorkFlow 安装各种破解。后来想想也不太好，还真还不便宜，只能减少自己对 WorkFlow 的依赖，同时 Mac 自带的 Spotlight 也能逐渐满足我的需求，所以基本就脱离了。
 
 
-## 4、Chrome
+## 3、Chrome
 
 现在说到浏览器，肯定离不开Chrome了，这家伙除了带动所有浏览器版本都变成升级狂以外，没啥缺点了。这里列一下经常用到的插件。
 
