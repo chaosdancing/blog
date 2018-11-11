@@ -10,9 +10,10 @@ script:
     - chmod 700 bin/hugo
     - bin/hugo -t even
  
+ # https://docs.travis-ci.com/user/deployment/pages/
 deploy:
     provider: pages
-    skip_cleanup: true
+    skip_cleanup: true #otherwise Travis CI will delete all the files created during the build
     github_token: $GITHUB_TOKEN
     email: $GITHUB_EMAIL
     name: $GITHUB_USERNAME
