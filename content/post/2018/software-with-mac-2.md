@@ -170,5 +170,16 @@ curl -sLf https://spacevim.org/install.sh | bash
 - **Proxy SwitchyOmega** ：不细说了，配合 Shadowsocks NG + Google Cloud + BBR 基本无敌🤩
 - **Chromium Wheel Smooth Scroller** ：让你的页面滚动如丝般柔滑
 
+## 4、系统工具
+
+### 4.1 Karabiner-Elements
+
+![karabiner](https://ws4.sinaimg.cn/large/006tNbRwgy1fx93nu2znrj31cs0u0tgq.jpg)
+
+系统键盘有些失灵，问了下换键盘需要拌面全换，3k大洋左右，实在是不太划算。因为是方括号和等号键，对我来说非常重要的三个键位。有两个选择，外置键盘、改键。外置键盘在家还能用，带走就比较麻烦，而Karabiner-Elements 恰好提供了一种方便的改键方式。还可以针对不同键盘设置配置文件，对我来说，非常方便。
+
+- 免费
+- 推荐度 ★★★★✩
+
 今天先写到这儿吧，没有经过系统训练，写这个玩意还是很累🙃，有空了了再来更新。
 
