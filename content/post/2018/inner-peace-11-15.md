@@ -6,7 +6,7 @@ tags: [ "晒晒我的字", "日常练习" ]
 categories: [ "life" ]
 isCJKLanguage: true
 include_toc: true
-draft: true
+draft: false
 ---
 
 
