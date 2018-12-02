@@ -11,7 +11,7 @@ draft: false
 
 > 上篇我们说了命令行的一些软件，这里我们重点说一下一些桌面应用的必备软件
 
-## 1、开发工具
+## 0x01、开发工具
 
 ### 1.1、JetBrain 工具包
 作为一个研发狗，开发工具肯定是不能少的，我觉得无论那种语言的，JetBrain的工具必不可少，我常用的是[IntelliJ IDEA](https://www.jetbrains.com/idea/)和[DataGrip](https://www.jetbrains.com/datagrip/)。选择上应该有三
@@ -77,7 +77,7 @@ Atom1 14年的横空出世，因为开发者的原因和推广，得到了非常
 
 来现在vim用的较少，不过很多编辑修改还是vim更加方便一点。其实呢，vim可以说是One for everything了，超过1.7w 的 plugins，基本上是你想要什么，就能做什么了。vim发展了这么多年，插件配置工具又非常多，出名的包括 `Vundle`、`NeoBundle`、`VimPlug`、`Pathogen`、`dein.vim`等，一些是原有的安装方式，一些是通过github来管理版本，总之都是为了一个目的，简化用户对于插件安装对操作。如果不是重度使用者，比起自己照着教程亦步亦趋的一个个配置，我是推荐一些开包即用的vim工具包使用，免去自己维护和调试的成本。
 
-那就是SpaceVim(https://spacevim.org/)，他自己的定义也是`Modern vim distribution`，就起表现来看，也是很到位了。底层支持vim/neovim，任君选择。安装方式
+那就是SpaceVim(https://spacevim.org/) ，他自己的定义也是`Modern vim distribution`，就起表现来看，也是很到位了。底层支持vim/neovim，任君选择。安装方式
 
 ```shell
 curl -sLf https://spacevim.org/install.sh | bash
@@ -87,7 +87,7 @@ curl -sLf https://spacevim.org/install.sh | bash
 
 ![spacevim](https://ws4.sinaimg.cn/large/006tNbRwgy1fx3z4ohtuuj311y0lctcd.jpg)
 
-## 2、效率工具
+## 0x02、效率工具
 
 ### Snap
 ![snap-icon](https://ws2.sinaimg.cn/large/006tNbRwgy1fx47j3k51fj3078075t8u.jpg)
@@ -161,7 +161,7 @@ curl -sLf https://spacevim.org/install.sh | bash
 曾经的重度依赖，因为 WorkFlow 安装各种破解。后来想想也不太好，还真还不便宜，只能减少自己对 WorkFlow 的依赖，同时 Mac 自带的 Spotlight 也能逐渐满足我的需求，所以基本就脱离了。
 
 
-## 3、Chrome
+## 0x03、Chrome
 
 现在说到浏览器，肯定离不开Chrome了，这家伙除了带动所有浏览器版本都变成升级狂以外，没啥缺点了。这里列一下经常用到的插件。
 
@@ -170,7 +170,7 @@ curl -sLf https://spacevim.org/install.sh | bash
 - **Proxy SwitchyOmega** ：不细说了，配合 Shadowsocks NG + Google Cloud + BBR 基本无敌🤩
 - **Chromium Wheel Smooth Scroller** ：让你的页面滚动如丝般柔滑
 
-## 4、系统工具
+## 0x04、系统工具
 
 ### 4.1 Karabiner-Elements
 
