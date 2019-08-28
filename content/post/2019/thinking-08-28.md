@@ -1,6 +1,10 @@
 ---
 title: "夏日思"
 date: 2019-08-28T22:58:36+08:00
+tags: [ "思考"]
+categories: [ "life" ]
+isCJKLanguage: true
+include_toc: true
 draft: true
 ---
 
